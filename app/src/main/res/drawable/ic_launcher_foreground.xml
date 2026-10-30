@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App icon (design appIcon): a one-stroke walking path like a noodle, three dots (the last one interaction yellow)
+     and a short arrow towards the first one: "move the printer to the bench". Safe zone 21..87. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M33,42C46,28 72,30 73,45C74,60 40,52 38,65C36,78 63,82 75,72"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="7.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M33,42m-6.5,0a6.5,6.5 0 1,0 13,0a6.5,6.5 0 1,0 -13,0"
+        android:fillColor="#FFFFFFFF" />
+    <path
+        android:pathData="M73,45m-6.5,0a6.5,6.5 0 1,0 13,0a6.5,6.5 0 1,0 -13,0"
+        android:fillColor="#FFFFFFFF" />
+    <path
+        android:pathData="M75,72m-6.5,0a6.5,6.5 0 1,0 13,0a6.5,6.5 0 1,0 -13,0"
+        android:fillColor="#FFFFD23F" />
+    <path
+        android:pathData="M64,25H44M50,19l-6,6l6,6"
+        android:strokeColor="#FFFFD23F"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+</vector>

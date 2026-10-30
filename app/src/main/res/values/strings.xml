@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copy from the design package `copy` (English). Generated list; keep both languages in step. -->
+<resources>
+    <string name="app_name">Spaghetti Walk</string>
+    <string name="home_title">Spaghetti Walk</string>
+    <string name="demo_prefix" formatted="true">Example · %1$s</string>
+    <string name="home_pin">Pin stations</string>
+    <string name="home_record">Record a run</string>
+    <string name="home_result">Results</string>
+    <string name="home_not_pinned">None yet</string>
+    <string name="home_pinned" formatted="true">%1$d pinned</string>
+    <string name="home_max10">Up to 10 min</string>
+    <string name="home_rerecord">Record Before again</string>
+    <string name="home_need_two">Pin at least 2 stations first</string>
+    <string name="home_demo">Rather not walk? Watch an example</string>
+    <string name="home_last" formatted="true">%1$s m · %2$s</string>
+    <string name="home_starting">Getting ready…</string>
+    <string name="st_workbench">Workbench</string>
+    <string name="st_shelf">Shelf</string>
+    <string name="st_printer">Printer</string>
+    <string name="st_cabinet">Cabinet</string>
+    <string name="st_bin">Bin</string>
+    <string name="st_door">Door</string>
+    <string name="st_name" formatted="true">%1$s %2$d</string>
+    <string name="tray_title">Pin stations</string>
+    <string name="tray_count" formatted="true">%1$d/8</string>
+    <string name="tray_hint">Look at the floor and pinch to place it there</string>
+    <string name="tray_hint_ray">Or point the controller at the floor and pull the trigger</string>
+    <string name="tray_max8">8 at most</string>
+    <string name="tray_list">Stations · select, bring in front, delete</string>
+    <string name="tray_empty">No stations yet</string>
+    <string name="act_select">Select</string>
+    <string name="act_to_me">Move in front of me</string>
+    <string name="act_delete">Delete</string>
+    <string name="act_more">More</string>
+    <string name="act_back">Back</string>
+    <string name="act_turn_l">Turn left 15°</string>
+    <string name="act_turn_r">Turn right 15°</string>
+    <string name="act_prev">Previous</string>
+    <string name="act_next">Next</string>
+    <string name="act_minus">Less</string>
+    <string name="act_plus">More</string>
+    <string name="bar_stick">Thumbstick left/right to turn</string>
+    <string name="bar_stats" formatted="true">%1$s · %2$s</string>
+    <string name="toast_not_floor">Can\'t place here · use the floor</string>
+    <string name="toast_overlap" formatted="true">Overlaps %1$s</string>
+    <string name="toast_too_close">Too close to you · moved a bit away</string>
+    <string name="toast_max8">8 at most</string>
+    <string name="toast_scanning">Look around the floor slowly</string>
+    <string name="toast_virtual">No floor found · using a virtual floor</string>
+    <string name="toast_real">Floor found · using the real floor</string>
+    <string name="toast_snapped">Snapped · bench end</string>
+    <string name="toast_snapped_home">Snapped · original spot</string>
+    <string name="toast_lost">Tracking lost · stand still</string>
+    <string name="toast_back">Tracking is back</string>
+    <string name="toast_to_me">Moved 1.0 m in front of you</string>
+    <string name="toast_anchor">Couldn\'t save the spot · numbers kept</string>
+    <string name="brief_title">What are you doing this run?</string>
+    <string name="task_pack">Pack a parcel</string>
+    <string name="task_papers">Sort papers</string>
+    <string name="task_tidy">Tidy the bench</string>
+    <string name="task_other">Other</string>
+    <string name="brief_safety">Only packing or tidying: no knives, no hot pans, under 10 minutes</string>
+    <string name="brief_safety2">Clear cables and boxes off the floor · carry only small, one-hand items</string>
+    <string name="brief_how">Work as usual, no need to watch the panel. When done, put things down and pinch Stop</string>
+    <string name="brief_start">Start (in 3 s)</string>
+    <string name="brief_after_title">Moved things to the new spots?</string>
+    <string name="brief_after_how">This run uses your new station positions</string>
+    <string name="rec_walked" formatted="true">%1$s m · %2$d visits</string>
+    <string name="rec_stop">Stop</string>
+    <string name="rec_cancel">Cancel</string>
+    <string name="rec_last30">30 s left</string>
+    <string name="rec_lost">Tracking lost · stand still</string>
+    <string name="rec_get_ready">Get ready</string>
+    <string name="draw_drawing">Drawing your path…</string>
+    <string name="draw_skip">Skip</string>
+    <string name="res_title" formatted="true">%1$s · %2$s</string>
+    <string name="res_before">Before</string>
+    <string name="res_after">After</string>
+    <string name="res_sub" formatted="true">%1$s total · %2$s walking · %3$d visits</string>
+    <string name="res_most" formatted="true">Most: %1$s ↔ %2$s · %3$d trips · %4$s m (%5$s%%)</string>
+    <string name="res_most_none">No back-and-forth yet</string>
+    <string name="res_reason">Why the back-and-forth:</string>
+    <string name="reason_pickup">Pick up</string>
+    <string name="reason_fetch">Fetch supplies</string>
+    <string name="reason_throw">Throw away</string>
+    <string name="reason_other">Other</string>
+    <string name="res_trips" formatted="true">%1$d trips</string>
+    <string name="res_walk_to" formatted="true">%1$s m to here</string>
+    <string name="res_segments">Segments</string>
+    <string name="res_try">Try a new layout</string>
+    <string name="res_compare">Compare</string>
+    <string name="res_no_markers">Floor markers not found</string>
+    <string name="seg_title" formatted="true">Segment %1$d / %2$d</string>
+    <string name="seg_line" formatted="true">%1$s → %2$s · %3$s m · %4$s</string>
+    <string name="seg_detour" formatted="true">Detour ×%1$s (straight %2$s m)</string>
+    <string name="seg_all">All</string>
+    <string name="stop_here" formatted="true">Stopped here %1$s · this is:</string>
+    <string name="stop_not">Not a station</string>
+    <string name="stop_stopped" formatted="true">stopped %1$s</string>
+    <string name="lay_title">Try a new layout</string>
+    <string name="lay_before">Before · measured</string>
+    <string name="lay_after">After · estimate</string>
+    <string name="lay_saves" formatted="true">%1$s m less per run · ~%2$s</string>
+    <string name="lay_worse" formatted="true">%1$s m more per run</string>
+    <string name="lay_try">Drag a station to try</string>
+    <string name="lay_hint">Pinch and drag a station · thumbstick to turn · it snaps near a dashed frame</string>
+    <string name="lay_reset">Reset</string>
+    <string name="lay_annual">A year of this →</string>
+    <string name="ann_title">A year of this</string>
+    <string name="ann_per_shift">Runs per shift</string>
+    <string name="ann_shifts">Shifts per day</string>
+    <string name="ann_days">Days per year</string>
+    <string name="ann_result" formatted="true">%1$s less walking a year</string>
+    <string name="ann_time" formatted="true">about %1$s</string>
+    <string name="ann_worse">This layout walks more</string>
+    <string name="ann_back">Back to layout</string>
+    <string name="ann_rerecord">Moved it — record again</string>
+    <string name="demo_after">Play the example After run</string>
+    <string name="unit_km" formatted="true">%1$s km</string>
+    <string name="unit_m" formatted="true">%1$s m</string>
+    <string name="unit_h" formatted="true">%1$s h</string>
+    <string name="unit_min" formatted="true">%1$s min</string>
+    <string name="unit_s" formatted="true">%1$s s</string>
+    <string name="cmp_title">Before and after</string>
+    <string name="cmp_after_measured">After · measured</string>
+    <string name="cmp_visits" formatted="true">Visits: before %1$d · after %2$d</string>
+    <string name="cmp_verdict" formatted="true">Measured: %1$s m less per run (%2$s%%) · %3$s a year</string>
+    <string name="cmp_verdict_worse" formatted="true">Measured: %1$s m more per run</string>
+    <string name="cmp_reason_tail" formatted="true"> · reason: %1$s</string>
+    <string name="cmp_view_after">View after path</string>
+    <string name="dlg_too_short_title">Too short</string>
+    <string name="dlg_too_short_body" formatted="true">Only %1$s m and %2$d visits. Do a whole task, then stop</string>
+    <string name="dlg_again">Record again</string>
+    <string name="dlg_back">Back</string>
+    <string name="dlg_stop_first">Stop for a moment and check your footing</string>
+    <string name="dlg_interrupted_title">Recording interrupted</string>
+    <string name="dlg_interrupted_body">That run was not saved</string>
+    <string name="dlg_clear_title">Clear everything?</string>
+    <string name="dlg_clear_body">Stations, both runs and all numbers will be deleted</string>
+    <string name="dlg_clear">Clear</string>
+    <string name="dlg_cancel">Cancel</string>
+    <string name="dlg_restoring">Look slowly toward your bench</string>
+    <string name="dlg_lost_title">Couldn\'t find your stations</string>
+    <string name="dlg_lost_body">Numbers are kept; pin the stations again</string>
+    <string name="dlg_repin">Pin again</string>
+    <string name="dlg_numbers">Numbers only</string>
+    <string name="dlg_rerecord_new">Start a new study? Record Before again with the current positions</string>
+    <string name="dlg_rerecord_only">Record again? It replaces the last run once saved</string>
+    <string name="dlg_rerecord">Record again</string>
+    <string name="dlg_new_study">Start</string>
+    <string name="dlg_edit">Changing stations starts a new study: the After positions become current and both runs are cleared</string>
+    <string name="dlg_edit_ok">Change</string>
+    <string name="menu_language">Language</string>
+    <string name="lang_system">System</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_en">EN</string>
+    <string name="menu_floor">Virtual floor</string>
+    <string name="menu_clear">Clear all</string>
+    <string name="menu_exit">Exit</string>
+    <string name="demo_title">Example · one packing run</string>
+    <string name="demo_body">No walking needed: look + pinch, or point the controller + trigger, to view and drag</string>
+    <string name="demo_play">Play</string>
+    <string name="floor_title">Virtual floor</string>
+    <string name="floor_length">Length</string>
+    <string name="floor_width">Width</string>
+    <string name="floor_height">Height</string>
+    <string name="floor_hint">Hold the trigger on the floor to drag it · thumbstick to turn</string>
+    <string name="floor_to_me">Place in front of me</string>
+    <string name="floor_done">Done</string>
+    <string name="floor_real">Using the real floor</string>
+    <string name="res_short_hint">Short run · walk longer for a clearer picture</string>
+</resources>

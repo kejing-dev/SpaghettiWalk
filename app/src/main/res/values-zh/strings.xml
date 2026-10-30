@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copy from the design package `copy` (中文). Generated list; keep both languages in step. -->
+<resources>
+    <string name="app_name">走动轨迹</string>
+    <string name="home_title">走动轨迹</string>
+    <string name="demo_prefix" formatted="true">示例 · %1$s</string>
+    <string name="home_pin">钉工位</string>
+    <string name="home_record">录一次</string>
+    <string name="home_result">看结果</string>
+    <string name="home_not_pinned">还没钉</string>
+    <string name="home_pinned" formatted="true">已钉 %1$d 个</string>
+    <string name="home_max10">最多 10 分钟</string>
+    <string name="home_rerecord">重新录改前</string>
+    <string name="home_need_two">先钉至少 2 个工位</string>
+    <string name="home_demo">不想走？看示例动线</string>
+    <string name="home_last" formatted="true">%1$s m · %2$s</string>
+    <string name="home_starting">准备中…</string>
+    <string name="st_workbench">工作台</string>
+    <string name="st_shelf">货架</string>
+    <string name="st_printer">打印机</string>
+    <string name="st_cabinet">柜子</string>
+    <string name="st_bin">垃圾桶</string>
+    <string name="st_door">门口</string>
+    <string name="st_name" formatted="true">%1$s %2$d</string>
+    <string name="tray_title">钉工位</string>
+    <string name="tray_count" formatted="true">%1$d/8</string>
+    <string name="tray_hint">看着地面捏一下，放在那里</string>
+    <string name="tray_hint_ray">或用手柄射线指地面，按扳机</string>
+    <string name="tray_max8">最多 8 个</string>
+    <string name="tray_list">工位 · 选中、移到面前、删除</string>
+    <string name="tray_empty">还没有工位</string>
+    <string name="act_select">选中</string>
+    <string name="act_to_me">移到面前</string>
+    <string name="act_delete">删除</string>
+    <string name="act_more">更多</string>
+    <string name="act_back">返回</string>
+    <string name="act_turn_l">左转 15°</string>
+    <string name="act_turn_r">右转 15°</string>
+    <string name="act_prev">上一段</string>
+    <string name="act_next">下一段</string>
+    <string name="act_minus">减少</string>
+    <string name="act_plus">增加</string>
+    <string name="bar_stick">摇杆左右转动</string>
+    <string name="bar_stats" formatted="true">%1$s · %2$s</string>
+    <string name="toast_not_floor">这里放不了 · 放在地面上</string>
+    <string name="toast_overlap" formatted="true">和%1$s叠在一起了</string>
+    <string name="toast_too_close">离你太近 · 放远了一点</string>
+    <string name="toast_max8">最多 8 个</string>
+    <string name="toast_scanning">慢慢看看地面</string>
+    <string name="toast_virtual">没扫到地面 · 先用虚拟地面</string>
+    <string name="toast_real">扫到地面了 · 用真实地面</string>
+    <string name="toast_snapped">吸住了 · 台边</string>
+    <string name="toast_snapped_home">吸住了 · 原位</string>
+    <string name="toast_lost">定位丢了 · 原地站一下</string>
+    <string name="toast_back">定位回来了</string>
+    <string name="toast_to_me">移到你面前 1.0 m</string>
+    <string name="toast_anchor">没存上位置 · 数字照常</string>
+    <string name="brief_title">这次录什么？</string>
+    <string name="task_pack">打包快递</string>
+    <string name="task_papers">整理文件</string>
+    <string name="task_tidy">收拾工作台</string>
+    <string name="task_other">其他</string>
+    <string name="brief_safety">只录打包、整理这类事：不拿刀、不碰热锅，10 分钟内</string>
+    <string name="brief_safety2">先清开脚下的线和箱子 · 只拿单手拿得动的小件</string>
+    <string name="brief_how">按平时的样子做，不用看面板。做完放下手里的东西，捏「结束」</string>
+    <string name="brief_start">开始（3 秒后）</string>
+    <string name="brief_after_title">东西都搬到新位置了吗？</string>
+    <string name="brief_after_how">这次用你改过的工位位置</string>
+    <string name="rec_walked" formatted="true">走了 %1$s m · 到访 %2$d 次</string>
+    <string name="rec_stop">结束</string>
+    <string name="rec_cancel">取消</string>
+    <string name="rec_last30">还有 30 秒</string>
+    <string name="rec_lost">定位丢了 · 原地站一下</string>
+    <string name="rec_get_ready">准备</string>
+    <string name="draw_drawing">正在画出你的路…</string>
+    <string name="draw_skip">跳过</string>
+    <string name="res_title" formatted="true">%1$s · %2$s</string>
+    <string name="res_before">改前</string>
+    <string name="res_after">改后</string>
+    <string name="res_sub" formatted="true">用时 %1$s · 走路 %2$s · 到访 %3$d 次</string>
+    <string name="res_most" formatted="true">最多：%1$s ↔ %2$s %3$d 趟 · %4$s m（%5$s%%）</string>
+    <string name="res_most_none">还没有来回</string>
+    <string name="res_reason">为什么来回：</string>
+    <string name="reason_pickup">取件</string>
+    <string name="reason_fetch">取料</string>
+    <string name="reason_throw">扔东西</string>
+    <string name="reason_other">其他</string>
+    <string name="res_trips" formatted="true">%1$d 趟</string>
+    <string name="res_walk_to" formatted="true">走去 %1$s m</string>
+    <string name="res_segments">看分段</string>
+    <string name="res_try">改布局试试</string>
+    <string name="res_compare">看对比</string>
+    <string name="res_no_markers">地上的标记没找回</string>
+    <string name="seg_title" formatted="true">第 %1$d 段 / %2$d</string>
+    <string name="seg_line" formatted="true">%1$s → %2$s · %3$s m · %4$s</string>
+    <string name="seg_detour" formatted="true">绕路 %1$s 倍（直线 %2$s m）</string>
+    <string name="seg_all">全部</string>
+    <string name="stop_here" formatted="true">这里停了 %1$s · 这里是：</string>
+    <string name="stop_not">不是工位</string>
+    <string name="stop_stopped" formatted="true">停了 %1$s</string>
+    <string name="lay_title">改布局试试</string>
+    <string name="lay_before">改前 实测</string>
+    <string name="lay_after">改后 估算</string>
+    <string name="lay_saves" formatted="true">每次少走 %1$s m · 约 %2$s</string>
+    <string name="lay_worse" formatted="true">每次多走 %1$s m</string>
+    <string name="lay_try">拖一个工位试试</string>
+    <string name="lay_hint">捏住工位拖动 · 摇杆左右转动 · 拖到虚线框附近会吸住</string>
+    <string name="lay_reset">还原</string>
+    <string name="lay_annual">算一年 →</string>
+    <string name="ann_title">算一年</string>
+    <string name="ann_per_shift">每班做几次</string>
+    <string name="ann_shifts">每天几班</string>
+    <string name="ann_days">每年几天</string>
+    <string name="ann_result" formatted="true">一年少走 %1$s</string>
+    <string name="ann_time" formatted="true">约 %1$s</string>
+    <string name="ann_worse">这样改反而多走了</string>
+    <string name="ann_back">返回改布局</string>
+    <string name="ann_rerecord">搬好了，再录一次</string>
+    <string name="demo_after">看示例改后实测</string>
+    <string name="unit_km" formatted="true">%1$s km</string>
+    <string name="unit_m" formatted="true">%1$s m</string>
+    <string name="unit_h" formatted="true">%1$s 小时</string>
+    <string name="unit_min" formatted="true">%1$s 分钟</string>
+    <string name="unit_s" formatted="true">%1$s 秒</string>
+    <string name="cmp_title">前后对比</string>
+    <string name="cmp_after_measured">改后 实测</string>
+    <string name="cmp_visits" formatted="true">到访：改前 %1$d 次 · 改后 %2$d 次</string>
+    <string name="cmp_verdict" formatted="true">实测每次少走 %1$s m（%2$s%%）· 一年 %3$s</string>
+    <string name="cmp_verdict_worse" formatted="true">实测每次多走 %1$s m</string>
+    <string name="cmp_reason_tail" formatted="true"> · 原因：%1$s</string>
+    <string name="cmp_view_after">看改后轨迹</string>
+    <string name="dlg_too_short_title">太短了</string>
+    <string name="dlg_too_short_body" formatted="true">这次只走了 %1$s m、到访 %2$d 次。按平时的样子做完一整件事再结束</string>
+    <string name="dlg_again">再录一次</string>
+    <string name="dlg_back">返回</string>
+    <string name="dlg_stop_first">先停一下，看看脚下</string>
+    <string name="dlg_interrupted_title">录制中断了</string>
+    <string name="dlg_interrupted_body">刚才那次没有保存</string>
+    <string name="dlg_clear_title">清除全部？</string>
+    <string name="dlg_clear_body">工位、两次录制和计算都会删掉</string>
+    <string name="dlg_clear">清除</string>
+    <string name="dlg_cancel">取消</string>
+    <string name="dlg_restoring">朝工作台那边慢慢看一看</string>
+    <string name="dlg_lost_title">没找到上次的工位</string>
+    <string name="dlg_lost_body">数字还在，地上的标记要重新钉</string>
+    <string name="dlg_repin">重新钉工位</string>
+    <string name="dlg_numbers">先看数字</string>
+    <string name="dlg_rerecord_new">开始新研究？用现在的工位位置重新录改前</string>
+    <string name="dlg_rerecord_only">重新录一次？新录成功后替换上一次</string>
+    <string name="dlg_rerecord">重新录</string>
+    <string name="dlg_new_study">开始</string>
+    <string name="dlg_edit">改工位会开始新研究：改后位置成为现在的位置，两次录制都会清掉</string>
+    <string name="dlg_edit_ok">改</string>
+    <string name="menu_language">语言</string>
+    <string name="lang_system">跟随系统</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_en">EN</string>
+    <string name="menu_floor">虚拟地面</string>
+    <string name="menu_clear">清除全部</string>
+    <string name="menu_exit">退出</string>
+    <string name="demo_title">示例 · 一次打包</string>
+    <string name="demo_body">不用走动：注视 + 捏合 或 手柄射线 + 扳机 就能看、能拖</string>
+    <string name="demo_play">开始回放</string>
+    <string name="floor_title">虚拟地面</string>
+    <string name="floor_length">长</string>
+    <string name="floor_width">宽</string>
+    <string name="floor_height">高低</string>
+    <string name="floor_hint">手柄射线按住扳机拖动地面 · 摇杆转动对齐</string>
+    <string name="floor_to_me">放到我面前</string>
+    <string name="floor_done">完成</string>
+    <string name="floor_real">已用真实地面</string>
+    <string name="res_short_hint">这段很短，走长一点效果更明显</string>
+</resources>

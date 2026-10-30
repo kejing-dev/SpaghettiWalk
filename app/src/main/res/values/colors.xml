@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app icon background: raspberry red #A8326E, the only magenta-family icon in the factory (design appIcon, icon-registry) -->
+    <color name="ic_launcher_background">#A8326E</color>
+</resources>
